@@ -1,0 +1,40 @@
+* {
+    font-family: 'Merriweather', serif;
+}
+
+.container {
+    display: grid; 
+    grid-template-columns: 0.3fr 0.3fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". ."; 
+    justify-content: space-around; 
+    align-content: center; 
+    justify-items: center; 
+  }
+
+  p{
+    padding-right: 10px 5px;
+  }
+
+  @media screen and (max-width: 480px) {
+
+    .container {
+      display: grid; 
+      grid-template-columns: 0.3fr 0.3fr; 
+      grid-template-rows: 1fr; 
+      gap: 0px 0px; 
+      grid-template-areas: 
+        "computech"
+        "mu"; 
+    }
+
+    .div1{
+      grid-area: computech;
+    }
+
+    .div2{
+      grid-area: mu;
+    }
+  } 

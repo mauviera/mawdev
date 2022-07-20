@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="pages/styles.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="form.css">
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  <title>Jav</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="lista__navegacion">
+        <li>
+          <a class="link__content" href="../index.html">Home</a>
+        </li>
+        <li>
+          <a class="link__content" href="about.html">About</a>
+        </li>
+        <li>
+          <a class="link__content" href="skills.html">skills</a>
+        </li>
+        <li>
+          <a class="link__content" href="portfolio.html">Portfolio</a>
+        </li>
+        <li>
+          <a class="link__content" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+    <div id="container">
+      <h1>Contact</h1>
+        <div class="underline">
+    </div>
+      <form action="#" method="post" id="contact_form">
+        <div class="name">
+          <label for="name"></label>
+          <input type="text" placeholder="name" name="name" id="name_input" required>
+        </div>
+        <div class="email">
+          <label for="email"></label>
+          <input type="email" placeholder="e-mail" name="email" id="email_input" required>
+        </div>
+        <div class="telephone">
+          <label for="name"></label>
+          <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
+        </div>
+        <div class="subject">
+          <label for="subject"></label>
+            <select placeholder="Subject line" name="subject" id="subject_input" required>
+              <option disabled hidden selected>Subject line</option>
+              <option>I'd like to start a project</option>
+              <option>I'd like to ask a question</option>
+              <option>I'd like to make a proposal</option>
+            </select>
+        </div>
+        <div class="message">
+          <label for="message"></label>
+          <textarea name="message" placeholder="Wirte a comment" id="message_input" cols="30" rows="5" required></textarea>
+        </div>
+        <div class="submit">
+          <input type="submit" value="Send Message" id="form_button" />
+        </div>
+      </form>
+        </div>
+          <hr>
+      <footer>
+        <div class="media">
+          <span class="iconify icon__twitter" data-icon="ant-design:twitter-square-filled"></span>
+          <span class="iconify icon__linkedin" data-icon="ant-design:linkedin-filled"></span>
+          <span class="iconify icon__github" data-icon="ant-design:github-outlined"></span>
+        </div>
+          <a class="javdev" href="" target="_blank">Made with love — @mawdev</a>
+      </footer>
+</body>

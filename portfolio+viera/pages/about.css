@@ -1,0 +1,52 @@
+*::selection{
+    background: rgb(116, 141, 166);
+    color: black;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 44px;
+    margin-left: 41px;
+
+}
+
+
+.text1{
+    font-family: 'Merriweather', serif;
+    list-style-type: none;
+    font-size: 32px;
+    text-align: center;
+}
+
+.randomfacts h3{
+
+    font-family: 'Merriweather', serif;
+    padding-top: 120px;
+    padding-left: 43px;
+    justify-content:baseline;
+    justify-items: auto;
+    align-items: center;
+}
+
+.ul__facts li{
+    font-family: 'Merriweather', serif;
+    list-style-type:none;
+    text-align:center;
+    font-size: 18px;
+    margin-bottom: 0.8rem;
+}
+
+.ul__facts{
+    padding: 0;
+}
+
+
+
+h3 {
+    text-align: center;
+    font-size: 32px;
+
+}
+
+

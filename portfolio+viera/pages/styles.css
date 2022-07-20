@@ -1,0 +1,123 @@
+*::selection{
+    background: rgb(116, 141, 166);
+    color: black;
+}
+
+body{
+    background-color: rgb(240, 235, 227);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.lista__navegacion {
+    margin: 0;
+    color: black;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: left;    
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+
+}
+
+nav{
+    padding: 20px 0;
+}
+
+.link__content{
+    color: inherit;
+    text-decoration: none;
+    background-image: linear-gradient(150deg,rgb(116, 141, 166) 0%,rgb(211, 206, 223)50%);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 7px;
+    transition: background-size .7s;
+}
+
+.link__content:hover, a:focus {
+    background-size: 100% 7px;
+}
+
+.lista__navegacion a{
+    text-decoration: none;
+}
+
+.img__home{
+    display: flex;
+
+}
+
+img{
+    margin: auto;
+}
+
+.h2__hello, .h3__name, .p__from, h4{
+   text-align: center;
+
+}
+.h2__hello, .h3__name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+   
+}
+
+h4{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+}
+
+.p__from{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+}
+
+.javdev{
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    display: flex;
+    justify-content: end;
+    background-size: 100% 0.6em;
+    background-repeat: no-repeat;
+    background-position: center 75%;
+    background-position-x: center;
+    background-position-y: 75%;
+    background-image: linear-gradient(120deg,rgb(116, 141, 166) 0%,rgb(211, 206, 223)35%);
+}
+
+.icon__twitter, .icon__linkedin, .icon__github{
+    width: 32px;
+    height: 32px;
+}
+
+.main__content{
+    flex: 1;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid black;
+    padding: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .lista__navegacion {
+        margin: 0;
+        color: black;
+        list-style: none;
+        display:flex;
+        flex-direction: column;
+        gap: 17px;
+        justify-content: left;    
+        font-size: 13px;
+        font-family: 'Merriweather', serif;
+    
+    }
+}
